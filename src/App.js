@@ -6,10 +6,11 @@ function App() {
   return (
     <div className="App">
       <div>
+        <h1><img src="https://colorhunt.co/img/color-hunt-logo.gif" alt="" /> COLOR PICKER</h1>
       <form action="">
-      <textarea style={{background: color, height: '25vh'}} name="" id="" cols="40" rows="10"></textarea>
+      <textarea style={{background: color}} name="" id="" cols="40" rows="10"></textarea>
       <br />
-      <input type="text" onChange={(e) => setColor(e.target.value)}/>
+      <input type="text" onChange={(e) => setColor(e.target.value)} placeholder="Enter color name/code"/>
      </form>
       </div>
     </div>
