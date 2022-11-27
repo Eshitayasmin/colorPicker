@@ -18,29 +18,22 @@ h1 {
   -webkit-text-fill-color: transparent;
 
 }
-
+.common{
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(128, 128, 128, 0.563);
+}
 input {
   width: 320px;
   padding: 10px 2px;
-  margin-top: 20px;
-  box-shadow: 2px 2px 12px rgba(128, 128, 128, 0.563);
-  border: none;
-  border-radius: 10px;
+  margin-top: 30px;
   font-size: 21px;
   text-align: center;
 }
 
-input:focus {
+.common:focus{
   outline: none;
   box-shadow: 0 0 12px olive;
 }
 
-textarea {
-  border: 1px solid gray;
-  border-radius: 10px;
 
-}
-
-textarea:focus {
-  outline: none;
-}

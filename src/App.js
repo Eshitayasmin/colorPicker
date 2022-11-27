@@ -8,9 +8,9 @@ function App() {
       <div>
         <h1><img src="https://colorhunt.co/img/color-hunt-logo.gif" alt="" /> COLOR PICKER</h1>
       <form action="">
-      <textarea style={{background: color}} name="" id="" cols="40" rows="10"></textarea>
+      <textarea className='common' style={{background: color}} name="" id="" cols="40" rows="10" readOnly></textarea>
       <br />
-      <input type="text" onChange={(e) => setColor(e.target.value)} placeholder="Enter color name/code"/>
+      <input className='common' type="text" onChange={(e) => setColor(e.target.value)} placeholder="Enter color name/code" autoFocus/>
      </form>
       </div>
     </div>
