@@ -10,7 +10,7 @@ function App() {
       <form action="">
       <textarea className='common' style={{background: color}} name="" id="" cols="40" rows="10" readOnly></textarea>
       <br />
-      <input className='common' type="text" onChange={(e) => setColor(e.target.value)} placeholder="Enter color name/code" autoFocus/>
+      <input className='common' type="text" onChange={(e) => setColor(e.target.value)} placeholder="Enter color name/code"/>
      </form>
       </div>
     </div>
