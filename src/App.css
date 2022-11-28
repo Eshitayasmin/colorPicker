@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 img {
@@ -18,11 +18,13 @@ h1 {
   -webkit-text-fill-color: transparent;
 
 }
-.common{
+
+.common {
   border: none;
   border-radius: 10px;
   box-shadow: 2px 2px 12px rgba(128, 128, 128, 0.563);
 }
+
 input {
   width: 320px;
   padding: 10px 2px;
@@ -31,9 +33,7 @@ input {
   text-align: center;
 }
 
-.common:focus{
+.common:focus {
   outline: none;
   box-shadow: 0 0 12px olive;
 }
-
-
